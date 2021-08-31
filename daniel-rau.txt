@@ -57,15 +57,36 @@ Link to finished codepen: https://codepen.io/drau/pen/qBjZdVg?editors=1100
 
 15. How do I reference an id?
 
- An id is referenced 
+ An id is referenced within HTML and CSS with the "#" symbol.
 
 16. What is the difference between a section and a div
+
+ <section> is a semantic element which groups the content inside of it into a meaningful group. On the other hand, div does not provide any formal meaning to the content, but it can be useful to refer to for styling.
+
 17. What is CSS used for? 
+
+ CSS is used to alter the presentational elements of a webpage, such as things like colors and text fonts.
+
 18. How to we select an element? Example - every h2 on the page
+
+ In CSS, HTML elements are selected by simply using the name of the element. h2 {} would select every h2 element on the page.
+
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+ An id is unique to one specific HTML element, while class can refer to multiple elements belonging to the same class. A common use for the id attribute is to use hyperlinks to refer the user to a specific section of a webpage's content or to style a singular HTML element. Class would be a more appropriate choice for styling mutliple HTML elements in the same way. 
+
 20. How do we select classes in CSS?
+
+Classes are selected using .classname. For example, if the developer was trying to style every HTML element belonging to the "coffee" class, it would be selected in CSS using .coffee{}
+
 21. How do we select a p element with a single class of “human””?
+
+All elements of the human class can be selected with .human{}. 
+
 22. What is a parent child selector? When would this be useful? 
+
+A parent child selector is a css selector type which targets 
+
 23. How do you select all links within a div with the class of sidebar?
 24. What is a pseudo selector?
 25. What do we use the change the spacing between lines?
