@@ -162,7 +162,25 @@ Link to finished codepen: https://codepen.io/drau/pen/qBjZdVg?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+    Block elements stack elements on top of each other and take up the maximum possible width, even if the content does not fill the entire width of the element. In short, block elements keep each element distinctly separate by forcing new lines. 
+    Inline elements in do not separate neatly in these ways, which can cause the elements' styling to overlap in problematic ways, but allows elements to be lined up next to each other horizontally.
+
     2. What happens when an element is positioned absolutely? 
+
+    Absolutely positioned elements exist on a different "layer" of the document from all other elements. This allows the existence of that element on the page to not interfere or interact with the positioning of the other elementso n the document.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    The display: inline-block property/value pair allows inline elements to act similarly to block elements, allowing a normally inline element to exist in its own space while maintaining the ability to control the width of the element.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    Block by default: <div>, <address> <p>
+    Inline by default: <span>, <a>
+    Inline-block by default: <img>
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    The CSS box model is the way in which a browser visually represents each element on a web document. Under the box model, each element on the page exists within a rectangular "box".
+    
