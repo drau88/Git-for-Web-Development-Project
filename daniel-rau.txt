@@ -105,24 +105,59 @@ Link to finished codepen: https://codepen.io/drau/pen/qBjZdVg?editors=1100
 
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 
-Word/letter casing can be altered with the text-transform CSS property. Respectively, text-transform: uppercase and text-transform: lowercase will cause all letters to be uppercase or lowercase. Text-transform : capitalize will capitalize the first letter of each word.
+ Word/letter casing can be altered with the text-transform CSS property. Respectively, text-transform: uppercase and text-transform: lowercase will cause all letters to be uppercase or lowercase. Text-transform : capitalize will capitalize the first letter of each word.
 
 28. How do I add a 1px border around my div that is dotted and black?
 
-
+ div {
+     border: 1px dotted black;
+ }
 
 29. How do I select everything on the page? 
 
-Universal selector *{} would select all elements on the page indiscriminately.
+ Universal selector *{} would select all elements on the page indiscriminately.
 
 30. How do I write a comment in CSS?
+
+ Comments in CSS can be written in the following format: /* insertmycommenthere */
+
 31. How do I find out what file I am in, when I am using the command line? 
+
+ The pwd command can be used to see the currently selected file or directory.
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ A list of files and folders in the currently accessed folder can be seen with the ls command.
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+ Files can be removed with the rm <file> command. This should be used cautiously as it will be executed without any further prompting, so it cannot be opted out of at the last second.
+
 34. Why should I use version control? 
+
+ Version control is massively useful for keeping track of changes to code throughout a project's life, especially when it will be worked on by multiple members of a team. 
+
 35. How often should I commit to github?
+
+ Changes should be committed to github about every 20 minutes or after the successful implementation of an important feature.
+
 36. What is the command we would use to push our repo up to github? 
+
+ The git push command is used to push the repository up to github. For the first push, the command is "git push -u origin first-last." All further pushes can be conducted with a simple "git push"
+
 37. Walk me through Lambda's git flow. 
+
+ 1: Fork the desired github repository.
+ 2: Navigate to the desired local directory with cd command
+ 3: Clone the directory to local machine with git clone <ssh link> command.
+ 4: Navigate into the cloned respository with cd command
+ 5: Use git checkout -b 'firstname-lastname' to branch the repository.
+ 5: Work on the project, saving regularly.
+ 6: Use git add . to make the changes ready to commit.
+ 7: Use git commit -m "insertmymessagehere" to commit the changes and add a message about the changes added to the repository.
+ 8: Use git push -u origin branch-name to push the commits to github the first time and git push for subsequent pushes.
+ 9: Open/create a pull request on github under the relevant branch.
+ 10: Submit assignment via the pull request URL.
 
 Stretch Questions
 
