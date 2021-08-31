@@ -20,8 +20,8 @@ Link to finished codepen: https://codepen.io/drau/pen/qBjZdVg?editors=1100
  Two tags that require attributes are <a>, which requires the href attribute, and <img>, which requires the src attribute.
 
 6. What do we put in the head of our HTML document? 
-
-
+  
+ The head of an HTML document is typically used to contain information about the HTML document that are not going to be displayed, such as the page's title, author information, or to connect external files to the document. 
 
 7. What is an id?
 
@@ -77,23 +77,44 @@ Link to finished codepen: https://codepen.io/drau/pen/qBjZdVg?editors=1100
 
 20. How do we select classes in CSS?
 
-Classes are selected using .classname. For example, if the developer was trying to style every HTML element belonging to the "coffee" class, it would be selected in CSS using .coffee{}
+ Classes are selected using .classname. For example, if the developer was trying to style every HTML element belonging to the "coffee" class, it would be selected in CSS using .coffee{}
 
 21. How do we select a p element with a single class of “human””?
 
-All elements of the human class can be selected with .human{}. 
+ All elements of the human class can be selected with .human{}. 
 
 22. What is a parent child selector? When would this be useful? 
 
-A parent child selector is a css selector type which targets 
+ A parent child selector is a css selector type which targets specific elements (child) contained within a larger "umbrella" elements (parent). This selector type is useful for isolating specific elements in a parent-child relationship for individual styling.
 
 23. How do you select all links within a div with the class of sidebar?
+
+ All links in a div with the class of sidebar would be selected with .sidebar a {}, which would select all anchor elements under the parent div element.
+
 24. What is a pseudo selector?
+
+ Pseudo selectors are used to style HTML elements in specific states or circumstances. A common pseudo selector is a:hover, which would apply a style only when the user is hovering their mouse cursor over the link.
+
 25. What do we use the change the spacing between lines?
+
+ Spacing between lines can be altered with the line-height CSS property.
+
 26. What do we use to change the spacing between letters?
+
+ Spacing between letters can be altered with the letter-spacing CSS property.
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+Word/letter casing can be altered with the text-transform CSS property. Respectively, text-transform: uppercase and text-transform: lowercase will cause all letters to be uppercase or lowercase. Text-transform : capitalize will capitalize the first letter of each word.
+
 28. How do I add a 1px border around my div that is dotted and black?
+
+
+
 29. How do I select everything on the page? 
+
+Universal selector *{} would select all elements on the page indiscriminately.
+
 30. How do I write a comment in CSS?
 31. How do I find out what file I am in, when I am using the command line? 
 32. Using the command line - how do I see a list of files/folders in my current folder?
